@@ -112,6 +112,9 @@ main {
     background: linear-gradient(to bottom right, #3c2a87 , #1c1c2b);
     padding: 2rem 1rem;
     text-align: center;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 .intro h2 {
