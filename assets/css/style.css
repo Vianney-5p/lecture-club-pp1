@@ -57,29 +57,29 @@ hr {
 /* Main content*/
 main {
     background: linear-gradient(to bottom right, #3c2a87 , #1c1c2b);
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
 .intro h2 {
-    font-size: 2.5rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
     color: #c084fc;
 }
 
 .intro p {
-    font-size: 1.1rem;
-    max-width: 400px;
-    margin: 0 auto 2rem;
+    font-size: 0.5rem;
+    max-width: 50%;
+    margin: 0 auto 1.5rem;
 }
 
 .cta-button {
     background-color: #c084fc;
     color: #1c1c2b;
-    padding: 0.75rem 1.5rem;
+    padding: 0.1rem 0.1rem;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     text-decoration: none;
     transition: background 0.3s;
 }
@@ -94,5 +94,5 @@ footer {
     padding: 1rem;
     text-align: center;
     color: #aaa;
-    font-size: 0.9rem;
+    font-size: 0.45rem;
 }
