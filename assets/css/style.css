@@ -55,6 +55,14 @@ header a {
     gap: 0.5rem;
 }
 
+.nav-links > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
 .nav-links.active {
     display: flex;
 }
