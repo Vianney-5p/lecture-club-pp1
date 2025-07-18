@@ -81,6 +81,10 @@ main {
     transition: background 0.3s;
 }
 
+.cta-button:hover {
+    background-color: #a35eea;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
