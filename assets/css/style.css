@@ -70,7 +70,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: beige;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -90,6 +90,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #c084fc;
 }
 
 
