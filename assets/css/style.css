@@ -36,8 +36,8 @@ header a {
 }
 
 #logo {
-    color: #co84fc;
     text-transform: uppercase;
+    color: blueviolet;
 }
 
 .hamburger {
