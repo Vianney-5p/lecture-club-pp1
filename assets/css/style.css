@@ -53,9 +53,32 @@ hr {
 
 /* Main content*/
 main {
-    background-color: beige;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
+    background: linear-gradient(to bottom right, #3c2a87 , #1c1c2b);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #c084fc;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.cta-button {
+    background-color: #c084fc;
+    color: #1c1c2b;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
 /* Footer */
