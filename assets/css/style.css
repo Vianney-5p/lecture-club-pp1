@@ -38,6 +38,15 @@ header {
     gap: 1rem;
 }
 
+.nav-links a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #c084fc;
+}
+
 hr {
     box-shadow: 0 2px 4px #3a3a3a;
 }
