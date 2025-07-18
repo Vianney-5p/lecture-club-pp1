@@ -10,21 +10,23 @@
 
 /* General styles */
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: white;
+    line-height: 1.6;
     /* Generic project styles */
-    color: #3a3a3a;
-    font-family: "lato", sans-serif;
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
 }
 
 
 /* Header */
 header {
-    background-color: whitesmoke;
-    position: fixed;
-    z-index: 99;
+    background-color: #2d2d44;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 hr {
     box-shadow: 0 2px 4px #3a3a3a;
