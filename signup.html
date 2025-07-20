@@ -39,12 +39,46 @@
 
     <!--Main content / Hero  section-->
     <main>
-      <section id="hero"></section>
+      
+        <h2>Join us now!<i class="fa-solid fa-heart-pulse"></i></h2>
 
-      <section class="intro">
-        <h2>Welcome to the BookBridge</h2>
-        <p>Connecting generations through the joy of reading. Join our lecture club and be part of a growing community of curious minds.</p>
-        <a href="" class="cta-button">Join Now</a>
+      <!-- Heading -->
+      <section id="signup">
+        <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+          
+
+          <!-- Input fields -->
+          <label for="first-name">First Name</label>
+          <input type="text" name="first_name" id="first-name" class="text-input" required>
+          <br>
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last_name" id="last-name" class="text-input" required>
+          <br>
+          <label for="email-address">Email Address</label>
+          <input type="email" name="email_address" id="email-address" class="text-input" required>
+          
+          
+          <!-- Radio buttons section -->
+          <div class="radio-buttons">
+            <div>
+            <label for="teenagers">Teenagers</label>
+            <input type="radio" value="teenagers" name="group" id="teenagers" required checked>
+            </div>
+
+            <div>
+            <label for="adults">Adults</label>
+            <input type="radio" value="adults" name="group" id="adults" required>
+            </div>
+
+            <div>
+            <label for="seniors">Seniors</label>
+            <input type="radio" value="seniors" name="group" id="seniors" required>
+            </div>
+          </div>
+          
+          <!-- Submit button-->
+          <button type="submit" class="join-button">Join!</button>
+        </form>
       </section>
     </main>
 

@@ -183,6 +183,15 @@ main {
     margin: 1.5rem auto;
 }
 
+/* Sign up section */
+
+#signup {
+    color: #1c1c2b;
+    height: 50%;
+    width: 100%;
+    background: url("../images/pexels-vjapratama-2526398.jpg") ;
+}
+
 /* Footer */
 footer {
     background-color: #1c1c2b;
