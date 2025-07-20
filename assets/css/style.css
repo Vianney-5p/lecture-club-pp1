@@ -175,12 +175,12 @@ main {
     margin: 5px 0;
 }
 
-#meetups {
-    margin-right: 10rem;
-}
-
 #meetups h2 {
     margin: 0 auto 1.5rem;
+}
+
+.join {
+    margin: 1.5rem auto;
 }
 
 /* Footer */
@@ -267,6 +267,36 @@ footer {
     border-radius: 8px;
     text-decoration: none;
     transition: background 0.3s;
+    }
+
+    /* Reasons section */
+    
+    .reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 400%;
+    }
+
+    #benefits p {
+    padding: 0 20px;
+    }
+
+    #benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+    }
+
+    #meetups h2 {
+    margin: 0 auto 1.5rem;
+    }
+
+    .join {
+    margin: 1.5rem auto;
+    }
+
+    .reasons {
+    width: 90%;
+    margin: 20px auto;
     }
 }
 
