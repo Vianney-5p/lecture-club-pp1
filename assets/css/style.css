@@ -112,7 +112,6 @@ main {
 
 
 /* Intro section */
-/* reasons section */
 .intro h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -142,6 +141,14 @@ main {
 }
 
 /* Reasons section */
+
+#reasons {
+    color: #1c1c2b;
+    height: 100%;
+    width: 100%;
+    background: url("../images/pexels-n-voitkevich-5426075.jpg") no-repeat center center/cover;
+}
+
 .reasons {
     width: 90%;
     margin: 20px auto;
@@ -166,6 +173,14 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#meetups {
+    margin-right: 10rem;
+}
+
+#meetups h2 {
+    margin: 0 auto 1.5rem;
 }
 
 /* Footer */
