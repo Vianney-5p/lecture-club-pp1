@@ -154,7 +154,7 @@ footer {
 }
 
 #social-media i {
-    font-size: 100%;
+    font-size: 150%;
     padding: 5%;  
     color: whitesmoke;
 }
@@ -199,6 +199,31 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+
+    /* Intro section */
+    .intro h2 {
+    font-size: 280%;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    color: #c084fc;
+    }
+
+    .intro p {
+    font-size: 140%;
+    max-width: 80%;
+    margin: 1.5rem auto 3rem;
+    }
+
+    .cta-button {
+    background-color: #c084fc;
+    color: #1c1c2b;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
     }
 }
 
