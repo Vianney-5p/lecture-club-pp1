@@ -117,17 +117,22 @@ main {
 
 
 /* Intro section */
+.intro {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
 .intro h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    margin-top: 2.5rem;
+    font-size: clamp(1.5rem, 4vw, 2rem); /* Flexible between 1.5rem and 2rem */
+    margin: 2rem auto 1rem;
     color: #c084fc;
 }
 
 .intro p {
-    font-size: 0.7rem;
-    max-width: 60%;
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
+    max-width: 90%;
     margin: 0 auto 1.5rem;
+    line-height: 1.5;
 }
 
 .cta-button {
@@ -324,17 +329,17 @@ footer {
     }
 
     /* Intro section */
+     .intro {
+        padding: 3rem 2rem;
+    }
+
     .intro h2 {
-    font-size: 280%;
-    margin-bottom: 1rem;
-    margin-top: 2.5rem;
-    color: #c084fc;
+        font-size: 2.2rem;
     }
 
     .intro p {
-    font-size: 140%;
-    max-width: 80%;
-    margin: 1.5rem auto 3rem;
+        font-size: 1.2rem;
+        max-width: 80%;
     }
 
     .cta-button {
@@ -411,11 +416,26 @@ footer {
     .nav-links a:hover{
         border-bottom: 1px solid;
     }
-
+    
+    /* Hero section */
     #hero {
         height: 50vh;
     }
 
+    .intro {
+        padding: 4rem 4rem;
+    }
+
+    .intro h2 {
+        font-size: 2.6rem;
+    }
+
+    .intro p {
+        font-size: 1.3rem;
+        max-width: 70%;
+    }
+    
+    /* Footer section */
     .footer p {
         font-size: 1rem;
         max-width: 50%;
