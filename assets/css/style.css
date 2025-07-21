@@ -108,6 +108,11 @@ main {
     height: 400px;
     width: 100%;
     background: url("../images/pexels-alana-sousa-1723789-6707830.jpg") no-repeat center center/cover;
+
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
 }
 
 
