@@ -274,10 +274,12 @@ footer {
 }
 
 .footer p {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     text-align: center;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 90%;
+    line-height: 1.5;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -391,11 +393,21 @@ footer {
         background-color: #fafafa;
         color: #454b1b;
     }
+
+     .footer p {
+        font-size: 0.9rem;
+        max-width: 70%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .nav-links a:hover{
         border-bottom: 1px solid;
+    }
+
+    .footer p {
+        font-size: 1rem;
+        max-width: 50%;
     }
 }
