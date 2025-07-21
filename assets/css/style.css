@@ -192,6 +192,32 @@ main {
     border-radius: 8px;
 }
 
+#meetups dl {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1rem;
+}
+
+#meetups dl div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#meetups dt {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: #1c1c2b;
+}
+
+#meetups dd {
+  margin-left: 0;
+  font-size: 1rem;
+  color: #333;
+}
 
 #benefits-social>div,
 #benefits-professional>div {
@@ -399,6 +425,7 @@ footer {
         padding: 2rem;
         margin-bottom: 2rem;
     }
+     
 
     #meetups > div {
         display: flex;
@@ -411,6 +438,19 @@ footer {
         flex: 1 1 30%;
         padding: 2rem;
         margin-bottom: 2rem;
+    }
+      
+    #meetups dl {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    }
+
+    #meetups dl div {
+    flex: 1 1 45%;
+    max-width: 45%;
+    padding: 1.5rem;
     }
 
     .join {
@@ -472,6 +512,28 @@ footer {
     .intro p {
         font-size: 1.3rem;
         max-width: 70%;
+    }
+
+    #meetups dl {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 3rem;
+    }
+
+    #meetups dl div {
+    flex: 1 1 30%;
+    max-width: 30%;
+    padding: 2rem;
+    border-radius: 12px;
+    }
+
+    #meetups dt {
+    font-size: 1.4rem;
+    }
+
+    #meetups dd {
+    font-size: 1.1rem;
     }
     
     /* Footer section */
