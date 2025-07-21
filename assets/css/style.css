@@ -105,14 +105,14 @@ main {
 
 /* Hero section */
 #hero {
-    height: 400px;
+    height: 60vh; /* dynamic height: 60% of viewport height */
+    min-height: 400px;
     width: 100%;
     background: url("../images/pexels-alana-sousa-1723789-6707830.jpg") no-repeat center center/cover;
-
-    background-size: cover;
-    background-position: 50%;
-    flex-grow: 1;
-    padding: 20px 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5%;
 }
 
 
@@ -317,6 +317,12 @@ footer {
         margin-top: 79px;
     }
 
+    /* Hero section */
+     #hero {
+        height: 50vh;
+        padding: 40px 10%;
+    }
+
     /* Intro section */
     .intro h2 {
     font-size: 280%;
@@ -404,6 +410,10 @@ footer {
 @media screen and (min-width: 992px) {
     .nav-links a:hover{
         border-bottom: 1px solid;
+    }
+
+    #hero {
+        height: 50vh;
     }
 
     .footer p {
